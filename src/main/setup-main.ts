@@ -1,5 +1,5 @@
 export = () => {
-    if (process.type !== 'browser') return;
+    // if (process.type !== 'browser') return;
 
     const { BrowserWindow, Menu, ipcMain } = require('electron');
 
